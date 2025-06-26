@@ -1,0 +1,7 @@
+We are hiring for an internship role in Machine Learning and Data Science.
+
+Skills Required:
+- Python, Pandas, NumPy
+- Scikit-learn, Matplotlib
+- Streamlit or Flask
+- Good communication and documentation skills
