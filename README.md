@@ -27,3 +27,6 @@ This project ranks resumes based on how well they match a given Job Description 
 pip install -r requirements.txt
 streamlit run app.py
 ```
+## Live Demo
+### link :- https://resume-ranker-ak.streamlit.app/
+## Author : Karthik Aljapur
