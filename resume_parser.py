@@ -1,12 +1,12 @@
-import fitz
+import pdfplumber
 import docx2txt
 import os
 
 def extract_text_from_pdf(file_path):
     text = ""
-    with fitz.open(file_path) as pdf:
-        for page in pdf:
-            text += page.get_text()
+    with pdfplumber.open(file_path) as pdf:
+        for page in pdf.pages:
+            text += page.extract_text() + "\n"
     return text
 
 def extract_text_from_docx(file_path):
