@@ -1,0 +1,6 @@
+streamlit
+python-docx
+docx2txt
+pymupdf==1.23.7
+scikit-learn
+nltk
